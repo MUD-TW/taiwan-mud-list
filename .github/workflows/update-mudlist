@@ -1,0 +1,35 @@
+name: Update MUD List
+
+on:
+  schedule:
+    - cron: '0,30 * * * *'
+
+jobs:
+  node:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          ref: 'nodejs'
+
+      - name: setup node.js environment
+        uses: actions/setup-node@v1
+        with:
+          node-version: '14'
+
+      - name: setup timezone
+        uses: szenius/set-timezone@v1.0
+        with:
+          timezoneLinux: 'Asia/Taipei'
+
+      - name: install dependencies and run script
+        run: |
+          npm install
+          npm run update tw
+          npm run update cn
+
+      - name: auto commit
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: nodejs
+          commit_message: "🚀 update mud list"

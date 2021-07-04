@@ -1,0 +1,264 @@
+[
+    {
+        "name": "人在江湖",
+        "eng": "katok",
+        "ip": "katok.no-ip.org",
+        "port": 5555,
+        "timeout": 3,
+        "regex": "\/.*.*\/s",
+        "count": false
+    },
+    {
+        "name": "三國歪傳",
+        "eng": "yyy",
+        "ip": "mud.csie.org",
+        "port": 3838,
+        "timeout": 3,
+        "regex": false,
+        "count": false
+    },
+    {
+        "name": "小貓的世界",
+        "eng": "The cat world",
+        "ip": "catworld.muds.tw",
+        "port": 5555,
+        "timeout": 3,
+        "regex": "\/.*位巫師、(.+)位玩家在線上.*\/s",
+        "url": "http:\/\/catworld.muds.tw\/web",
+        "count": false
+    },
+    {
+        "name": "五星物語",
+        "eng": "The Five Star Stories",
+        "ip": "fss.twcos.com",
+        "port": 5000,
+        "timeout": 3,
+        "regex": "\/.*位巫師、(.+)位玩家在線上.*\/s",
+        "count": false
+    },
+    {
+        "name": "四度空間",
+        "eng": "void",
+        "ip": "220.133.42.198",
+        "port": 7777,
+        "timeout": 3,
+        "regex": false,
+        "count": false
+    },
+    {
+        "name": "失落的國度",
+        "eng": "DOOM",
+        "ip": "doom.twmuds.com",
+        "port": 4000,
+        "timeout": 3,
+        "regex": "\/.*現在共有(.+)位玩家正在失落的國度.*\/s",
+        "count": false
+    },
+    {
+        "name": "再戰江湖",
+        "eng": "The War In Field",
+        "ip": "210.59.236.38",
+        "port": 7788,
+        "timeout": 3,
+        "regex": "\/.*目前有(.+)位玩家在線上.*\/s",
+        "count": false
+    },
+    {
+        "name": "狂想空間",
+        "eng": "Fantasy Space",
+        "ip": "fs.twkang.net",
+        "port": 5555,
+        "timeout": 3,
+        "regex": "\/.*線上(.+), 以及.*\/s",
+        "count": false
+    },
+    {
+        "name": "狂搞空間",
+        "eng": "Crazy Space",
+        "ip": "crazyspace.twmuds.com",
+        "port": 6000,
+        "timeout": 3,
+        "regex": "\/.*目前共有(.+)位玩家在線上.*\/s",
+        "count": false
+    },
+    {
+        "name": "亞雷恩傳奇",
+        "eng": "The sage of arion",
+        "ip": "arion.allowed.org",
+        "port": 6000,
+        "timeout": 3,
+        "regex": false,
+        "count": false
+    },
+    {
+        "name": "東方故二天朝遊俠錄",
+        "eng": "The Celestial Empire",
+        "ip": "us.muds.net",
+        "port": 4000,
+        "timeout": 3,
+        "regex": "\/.*位巫師、(.+)位玩家在線上.*\/s",
+        "count": false
+    },
+    {
+        "name": "東方故事",
+        "eng": "Eastern Stories",
+        "ip": "es.clovers.tw",
+        "port": 8000,
+        "timeout": 3,
+        "regex": "\/.*共有:(.+)個玩家.*\/s",
+        "count": false
+    },
+    {
+        "name": "金庸修真錄",
+        "eng": "Jin Yong Record",
+        "ip": "jy.mud.com.tw",
+        "port": 6666,
+        "timeout": 3,
+        "regex": "\/.*位巫師、(.+)位玩家在線上.*\/s",
+        "count": false
+    },
+    {
+        "name": "重生的世界",
+        "eng": "Revival World",
+        "ip": "mud.revivalworld.org",
+        "port": 4000,
+        "timeout": 3,
+        "regex": "\/.*位巫師、(.+)位玩家.*\/s",
+        "count": false
+    },
+    {
+        "name": "風之大陸",
+        "eng": "WindLand",
+        "ip": "windmud.web-games.net",
+        "port": 4040,
+        "timeout": 3,
+        "regex": false,
+        "count": false
+    },
+    {
+        "name": "風雲再起",
+        "eng": "Wind Cloud",
+        "ip": "windcloud.twmuds.com",
+        "port": 8000,
+        "timeout": 3,
+        "regex": "\/.*目前共有(.+)位玩家在線上.*\/s",
+        "count": false
+    },
+    {
+        "name": "原始物語",
+        "eng": "A Primitive Story",
+        "ip": "psmud.ddns.net",
+        "port": 6789,
+        "timeout": 3,
+        "regex": "\/.*目前已經有(.+)個原始人.*\/s",
+        "count": false
+    },
+    {
+        "name": "時空之門",
+        "eng": "The Ages",
+        "ip": "mud.slzzp.net",
+        "port": 4848,
+        "timeout": 3,
+        "regex": "\/.*總共有(.+)\\\/.+位時空冒險者.*\/s",
+        "count": false
+    },
+    {
+        "name": "時空幻境",
+        "eng": "Time Space Dreamland",
+        "ip": "td.muds.net",
+        "port": 5000,
+        "timeout": 3,
+        "regex": false,
+        "count": false
+    },
+    {
+        "name": "迴風追夢",
+        "eng": "DIW",
+        "ip": "54.238.150.137",
+        "port": 4000,
+        "timeout": 3,
+        "regex": false,
+        "count": false
+    },
+    {
+        "name": "異想世界",
+        "eng": "Imaginary world",
+        "ip": "43.252.229.138",
+        "port": 4000,
+        "timeout": 3,
+        "regex": "\/.*管理者 ,(.+)位玩家在線上.*\/s",
+        "count": false
+    },
+    {
+        "name": "渾沌幻世",
+        "eng": "CHAOS",
+        "ip": "54.238.179.235",
+        "port": 5555,
+        "timeout": 3,
+        "regex": "\/.*現在有(.+)名勇者.*\/s",
+        "count": false
+    },
+    {
+        "name": "虛幻時空",
+        "eng": "Illusory of Time",
+        "ip": "it.muds.net",
+        "port": 7000,
+        "timeout": 3,
+        "regex": "\/.*目前線上共有(.+)位英雄豪傑.*\/s",
+        "count": false
+    },
+    {
+        "name": "亂世群雄",
+        "eng": "Heroes Story",
+        "ip": "1.34.119.71",
+        "port": 7878,
+        "timeout": 10,
+        "regex": "\/.*開創天地，和(.+)位英雄在亂世之中.*\/s",
+        "count": false
+    },
+    {
+        "name": "萬王之王",
+        "eng": "King of Kings",
+        "ip": "kk.muds.idv.tw",
+        "port": 4000,
+        "timeout": 3,
+        "regex": "\/.*目前線上共有(.+)位英雄豪傑.*\/s",
+        "count": false
+    },
+    {
+        "name": "聖殿英雄傳說",
+        "eng": "Sanctuary",
+        "ip": "sanc.game.tw",
+        "port": 4002,
+        "timeout": 3,
+        "regex": "\/.*人數\\\/上限\\[(.+)\\\/.+\\],你想用哪個.*\/s",
+        "count": false
+    },
+    {
+        "name": "夢幻七域",
+        "eng": "The Dream of Seven",
+        "ip": "210.59.236.38",
+        "port": 7000,
+        "timeout": 3,
+        "regex": "\/.*位巫師、(.+)位玩家在線上.*\/s",
+        "count": false
+    },
+    {
+        "name": "龍域傳奇",
+        "eng": "Dragonrealm",
+        "ip": "dragonrealms.co",
+        "port": 3000,
+        "timeout": 3,
+        "regex": false,
+        "count": false
+    },
+    {
+        "name": "霹靂爭雄錄",
+        "eng": "Pili",
+        "ip": "220.135.157.149",
+        "port": 9999,
+        "timeout": 3,
+        "regex": "\/.*共有(.+)\\\/.+位玩家在霹靂爭雄錄.*\/s",
+        "count": false
+    }
+]
