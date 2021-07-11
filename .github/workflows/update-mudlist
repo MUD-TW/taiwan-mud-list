@@ -32,4 +32,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           branch: nodejs
-          commit_message: "🚀 update mud list"
+          commit_message: "🚀 update mud list (TW, CN)"
