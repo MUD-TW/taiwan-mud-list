@@ -5,7 +5,7 @@
         "ip": "katok.no-ip.org",
         "port": 5555,
         "timeout": 3,
-        "regex": "\/.*.*\/s",
+        "regex": false,
         "count": false
     },
     {
@@ -24,7 +24,7 @@
         "port": 5555,
         "timeout": 3,
         "regex": "\/.*位巫師、(.+)位玩家在線上.*\/s",
-        "url": "http:\/\/catworld.muds.tw\/web",
+        "url": "https:\/\/catworld.muds.tw\/web",
         "count": false
     },
     {
@@ -34,6 +34,15 @@
         "port": 5000,
         "timeout": 3,
         "regex": "\/.*位巫師、(.+)位玩家在線上.*\/s",
+        "count": false
+    },
+    {
+        "name": "幻世群雄錄",
+        "eng": "",
+        "ip": "220.135.157.149",
+        "port": 6666,
+        "timeout": 3,
+        "regex": "\/.*位巫師、\\[(.+)\\] 位玩家.*\/s",
         "count": false
     },
     {
@@ -55,6 +64,24 @@
         "count": false
     },
     {
+        "name": "未知世界",
+        "eng": "",
+        "ip": "uwmud.dyndns.org",
+        "port": 4000,
+        "timeout": 3,
+        "regex": "\/.*目前共有(.+)位玩家在線上.*\/s",
+        "count": false
+    },
+    {
+        "name": "未知風雲",
+        "eng": "",
+        "ip": "220.135.157.149",
+        "port": 3333,
+        "timeout": 3,
+        "regex": "\/.*目前共有 (.+) 位玩家在未知風雲.*\/s",
+        "count": false
+    },
+    {
         "name": "再戰江湖",
         "eng": "The War In Field",
         "ip": "210.59.236.38",
@@ -62,6 +89,14 @@
         "timeout": 3,
         "regex": "\/.*目前有(.+)位玩家在線上.*\/s",
         "count": false
+    },
+    {
+        "name": "羊羽宙",
+        "eng": null,
+        "ip": "cloudliter.ddns.net",
+        "regex": false,
+        "count": false,
+        "url": "https:\/\/cloudliter.ddns.net"
     },
     {
         "name": "狂想空間",
@@ -75,7 +110,7 @@
     {
         "name": "狂搞空間",
         "eng": "Crazy Space",
-        "ip": "crazyspace.twmuds.com",
+        "ip": "123.193.214.50",
         "port": 6000,
         "timeout": 3,
         "regex": "\/.*目前共有(.+)位玩家在線上.*\/s",
@@ -91,21 +126,21 @@
         "count": false
     },
     {
-        "name": "東方故二天朝遊俠錄",
-        "eng": "The Celestial Empire",
-        "ip": "us.muds.net",
-        "port": 4000,
-        "timeout": 3,
-        "regex": "\/.*位巫師、(.+)位玩家在線上.*\/s",
-        "count": false
-    },
-    {
         "name": "東方故事",
         "eng": "Eastern Stories",
         "ip": "es.clovers.tw",
         "port": 8000,
         "timeout": 3,
         "regex": "\/.*共有:(.+)個玩家.*\/s",
+        "count": false
+    },
+    {
+        "name": "東方故事二天朝遊俠錄",
+        "eng": "The Celestial Empire",
+        "ip": "us.muds.net",
+        "port": 4000,
+        "timeout": 3,
+        "regex": "\/.*位巫師、(.+)位玩家在線上.*\/s",
         "count": false
     },
     {
@@ -168,7 +203,7 @@
         "ip": "td.muds.net",
         "port": 5000,
         "timeout": 3,
-        "regex": false,
+        "regex": "\/.*.*\/s",
         "count": false
     },
     {
@@ -212,6 +247,15 @@
         "eng": "Heroes Story",
         "ip": "1.34.119.71",
         "port": 7878,
+        "timeout": 10,
+        "regex": "\/.*開創天地，和(.+)位英雄在亂世之中.*\/s",
+        "count": false
+    },
+    {
+        "name": "亂世群雄 (Hmud)",
+        "eng": "Heroes Story",
+        "ip": "heros.muds.cc",
+        "port": 8888,
         "timeout": 10,
         "regex": "\/.*開創天地，和(.+)位英雄在亂世之中.*\/s",
         "count": false

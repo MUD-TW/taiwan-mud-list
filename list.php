@@ -35,7 +35,7 @@
                         <td class="text-right"><?= $index + 1 ?></td>
                         <td><?= $mud['name'] ?></td>
                         <td><a class="text-reset" href="<?= $url ?>" target="_blank"><?= $mud['ip'] ?></a></td>
-                        <td class="text-right"><?= $mud['port'] ?></td>
+                        <td class="text-right"><?= @$mud['port'] ?: '-' ?></td>
                         <td class="text-center"><i class="<?= $mud['count'] === false ? 'fas fa-times' : 'far fa-circle' ?>"></i></td>
                         <td class="text-right"><?= ($mud['count'] === false) ? '' : (($mud['count'] === true) ? '-' : $mud['count']) ?></td>
                         <td><?= $mud['time'] ?? '' ?></td>

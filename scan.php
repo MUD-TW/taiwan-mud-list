@@ -6,7 +6,7 @@ function lookup($options, $big5 = true) {
     $descriptors = [
         0 => ['pipe', 'r'],
         1 => ['pipe', 'w'],
-        2 => ['file', '/tmp/scan-error.log', 'a'],
+        2 => ['file', '/tmp/error-output.txt', 'a'],
     ];
 
     $process = proc_open("timeout 12 telnet {$ip} {$port}", $descriptors, $pipes, '/tmp', []);
@@ -28,6 +28,16 @@ function lookup($options, $big5 = true) {
 
     proc_close($process);
 
+    return parseCount($content, $regex);
+}
+
+function lookupWeb($options) {
+    list('regex' => $regex, 'url' => $url) = $options;
+
+    return parseCount(file_get_contents($url), $regex);
+}
+
+function parseCount($content, $regex) {
     if ($content) {
         if ($regex) {
             $content = trim(preg_replace($regex, '$1', $content));
@@ -54,7 +64,7 @@ usort($muds, function ($a, $b) {
 });
 
 foreach ($muds as &$mud) {
-    $mud['count'] = lookup($mud);
+    $mud['count'] = @$mud['port'] ? lookup($mud): lookupWeb($mud);
 
     if ($mud['count'] !== false) {
         $mud['time'] = date('Y-m-d H:i');
